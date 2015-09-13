@@ -1,0 +1,12 @@
+    ---------------------------
+    Testing equals and hashCode
+    ---------------------------
+          Jens Pelzetter
+    ---------------------------
+            2015-09-13
+    ---------------------------
+
+Testing equals and hashCode
+
+    This project contains the example sources for the article 
+    {{{http://www.jp-digital.de/}Testing equals and hashCode}} on my blog.
