@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package de.jpdigital.sandbox.geofigcalc;
 
 import java.math.BigDecimal;
@@ -75,13 +70,13 @@ public final class Result<F extends Figure> {
     @Override
     public String toString() {
         return String.format("%s{ figure = { %s }, "
-                                 + "area = %d, "
-                                 + "perimeter = %d"
+                                 + "area = %s, "
+                                 + "perimeter = %s"
                                  + " }",
                              super.toString(),
                              Objects.toString(figure),
-                             area,
-                             perimeter);
+                             area.toPlainString(),
+                             area.toPlainString());
     }
 
 }

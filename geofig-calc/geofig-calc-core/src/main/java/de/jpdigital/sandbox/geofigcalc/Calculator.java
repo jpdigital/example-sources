@@ -57,7 +57,7 @@ public class Calculator {
     /**
      * {@link AnnotationLiteral} used for filtering the available calculators.
      */
-    private class CalculatesLiteral
+    private static class CalculatesLiteral
         extends AnnotationLiteral<Calculates>
         implements Calculates {
 
@@ -65,7 +65,7 @@ public class Calculator {
 
         private final Class<? extends Figure> figureClass;
 
-        public CalculatesLiteral(Class<? extends Figure> figureClass) {
+        public CalculatesLiteral(final Class<? extends Figure> figureClass) {
             this.figureClass = figureClass;
         }
 

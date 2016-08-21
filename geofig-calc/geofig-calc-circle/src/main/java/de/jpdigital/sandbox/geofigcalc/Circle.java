@@ -4,7 +4,8 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 /**
- *
+ * An implementation of the {@link Circle} interface representing a circle.
+ * 
  * @author <a href="mailto:jens.pelzetter@googlemail.com">Jens Pelzetter</a>
  */
 public class Circle implements Figure {
@@ -50,10 +51,10 @@ public class Circle implements Figure {
     @Override
     public String toString() {
         return String.format("%s{ "
-                                 + "radius = %d"
+                                 + "radius = %s"
                                  + " }",
                              super.toString(),
-                             radius);
+                             radius.toPlainString());
     }
 
 }

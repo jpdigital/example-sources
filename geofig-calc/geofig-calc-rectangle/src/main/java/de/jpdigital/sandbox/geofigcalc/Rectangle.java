@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 /**
+ * An implementation of the {@link Figure} interface representing a
+ * {@link Rectangle}.
  *
  * @author <a href="mailto:jens.pelzetter@googlemail.com">Jens Pelzetter</a>
  */
@@ -62,12 +64,12 @@ public class Rectangle implements Figure {
     @Override
     public String toString() {
         return String.format("%s{ "
-                                 + "width = %d, "
-                                 + "height = %d"
-                                 + " }",
+                                     + "width = %s, "
+                                     + "height = %s"
+                                     + " }",
                              super.toString(),
-                             width,
-                             height);
+                             width.toPlainString(),
+                             height.toPlainString());
     }
 
 }

@@ -5,7 +5,8 @@ import java.math.BigDecimal;
 import javax.enterprise.context.RequestScoped;
 
 /**
- *
+ * An implementation of the {@link FigureCalculator} for rectangles.
+ * 
  * @author <a href="mailto:jens.pelzetter@googlemail.com">Jens Pelzetter</a>
  */
 @RequestScoped

@@ -22,7 +22,7 @@ public class GeoFigCalcServlet extends HttpServlet {
     private static final long serialVersionUID = -1989774801275540350L;
 
     @Inject
-    private Calculator calculator;
+    private transient Calculator calculator;
     
     @Override
     public void doGet(final HttpServletRequest request,

@@ -1,2 +1,7 @@
 /testing-equals-and-hashcode/target/
 /extensible-to-string/target/
+/geofig-calc/geofig-calc-core/target/
+/geofig-calc/geofig-calc-rectangle/target/
+/geofig-calc/geofig-calc-web/target/
+/geofig-calc/geofig-calc-circle/target/
+/geofig-calc/target/

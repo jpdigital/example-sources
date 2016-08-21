@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package de.jpdigital.sandbox.geofigcalc;
 
 import java.math.BigDecimal;
@@ -10,7 +5,8 @@ import java.math.BigDecimal;
 import javax.enterprise.context.RequestScoped;
 
 /**
- *
+ * An implementation of the {@link FigureCalculator} for the a circle.
+ * 
  * @author <a href="mailto:jens.pelzetter@googlemail.com">Jens Pelzetter</a>
  */
 @RequestScoped
