@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>de.jpdigital.sandbox</groupId>
+        <artifactId>geofig-calc</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    
+    <groupId>de.jpdigital.sandbox</groupId>
+    <artifactId>geofig-calc-web</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    
+    <name>geofig-calc-web</name>
+    
+    
+    <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <type>jar</type>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>de.jpdigital.sandbox</groupId>
+            <artifactId>geofig-calc-core</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>de.jpdigital.sandbox</groupId>
+            <artifactId>geofig-calc-rectangle</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>de.jpdigital.sandbox</groupId>
+            <artifactId>geofig-calc-circle</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <finalName>geofig-calc</finalName>
+    </build>
+
+</project>
